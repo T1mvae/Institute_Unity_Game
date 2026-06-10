@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="SettingsRoot" class="popup-scrim hidden">
+        <ui:VisualElement class="popup-card">
+            <ui:Label text="SETTINGS" class="header" />
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="Master Volume" class="body-copy" />
+                <ui:Slider name="MasterVolumeSlider" low-value="0" high-value="100" value="80" />
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="UI Scale" class="body-copy" />
+                <ui:Slider name="UIScaleSlider" low-value="80" high-value="120" value="100" />
+            </ui:VisualElement>
+            <ui:Toggle name="FullscreenToggle" text="Fullscreen placeholder" />
+            <ui:Label text="Theme selection placeholder: InstituteDark" class="meta-label" />
+            <ui:Button name="SettingsBackButton" text="BACK" class="institute-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

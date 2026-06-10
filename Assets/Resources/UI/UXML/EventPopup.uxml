@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Resources/UI/Styles/base.uss" />
+    <Style src="project://database/Assets/Resources/UI/Styles/popups.uss" />
+
+    <ui:VisualElement name="event-root" class="overlay">
+        <ui:VisualElement class="dialog dialog-wide">
+            <ui:Label name="event-title" text="INSTITUTE EVENT" class="dialog-title" />
+            <ui:Label name="event-body" text="" class="dialog-body" />
+            <ui:VisualElement name="event-options" class="dialog-options" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

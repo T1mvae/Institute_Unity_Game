@@ -1,0 +1,57 @@
+{
+    "themeName": "InstituteDark",
+    "colors": {
+        "background": "#080B12",
+        "backgroundAlt": "#0D1220",
+        "panel": "#121826E6",
+        "panelAlt": "#182033E6",
+        "panelBorder": "#2A3655",
+        "accent": "#8B5CF6",
+        "accentSoft": "#6D4BD8",
+        "accentGlow": "#00D4AA",
+        "textPrimary": "#F2F5FF",
+        "textSecondary": "#AAB2C5",
+        "muted": "#6B7280",
+        "warning": "#F5C542",
+        "danger": "#EF4444",
+        "success": "#22C55E",
+        "button": "#1A2440",
+        "buttonHover": "#26365F",
+        "buttonPressed": "#31467D",
+        "buttonDisabled": "#151B2B"
+    },
+    "spacing": {
+        "xs": 4,
+        "sm": 8,
+        "md": 16,
+        "lg": 24,
+        "xl": 32,
+        "xxl": 48
+    },
+    "fontSizes": {
+        "tiny": 10,
+        "small": 12,
+        "body": 16,
+        "label": 14,
+        "title": 28,
+        "header": 36,
+        "display": 52
+    },
+    "radii": {
+        "sm": 4,
+        "md": 8,
+        "lg": 14,
+        "xl": 20
+    },
+    "opacity": {
+        "panel": 0.8999999761581421,
+        "overlay": 0.7200000286102295,
+        "disabled": 0.41999998688697817,
+        "glow": 0.3199999928474426
+    },
+    "durations": {
+        "fast": 0.07999999821186066,
+        "normal": 0.18000000715255738,
+        "slow": 0.3199999928474426
+    }
+}

@@ -1,0 +1,15 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="MapViewController">
+			<method name="ShowDevelopmentMap"/>
+			<method name="ShowInfluenceMap"/>
+			<method name="ShowStabilityMap"/>
+			<method name="ShowStandardMap"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

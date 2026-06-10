@@ -1,0 +1,10 @@
+{
+  "layoutName": "Gameplay",
+  "topBarHeight": 72,
+  "leftPanelWidth": 320,
+  "rightPanelWidth": 360,
+  "bottomLogHeight": 126,
+  "panelGap": 16,
+  "mapModeBarWidth": 640,
+  "minimumMapPadding": 24
+}

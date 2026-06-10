@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Resources/UI/Styles/base.uss" />
+    <Style src="project://database/Assets/Resources/UI/Styles/popups.uss" />
+
+    <ui:VisualElement name="settings-root" class="overlay">
+        <ui:VisualElement class="dialog">
+            <ui:Label text="SETTINGS" class="dialog-title" />
+            <ui:VisualElement class="form-row">
+                <ui:Label text="Master Volume" class="form-label" />
+                <ui:Slider name="slider-volume" low-value="0" high-value="1" value="0.8" class="form-control" />
+            </ui:VisualElement>
+            <ui:VisualElement class="form-row">
+                <ui:Label text="UI Scale" class="form-label" />
+                <ui:Slider name="slider-uiscale" low-value="0.75" high-value="1.5" value="1" class="form-control" />
+            </ui:VisualElement>
+            <ui:VisualElement class="form-row">
+                <ui:Label text="Show Tile Grid" class="form-label" />
+                <ui:Toggle name="toggle-grid" value="true" class="form-control" />
+            </ui:VisualElement>
+            <ui:Button name="btn-close" text="Close" class="btn btn-primary" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

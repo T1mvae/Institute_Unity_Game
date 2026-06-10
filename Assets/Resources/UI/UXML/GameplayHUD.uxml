@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Resources/UI/Styles/base.uss" />
+    <Style src="project://database/Assets/Resources/UI/Styles/gameplay.uss" />
+
+    <ui:VisualElement name="hud-root" class="hud-root" picking-mode="Ignore">
+
+        <!-- Top resource bar -->
+        <ui:VisualElement name="top-bar" class="top-bar">
+            <ui:Label text="THE INSTITUTE" class="brand" />
+            <ui:VisualElement class="readout">
+                <ui:Label text="MONEY" class="readout-label" />
+                <ui:Label name="res-money" text="--" class="readout-value" />
+            </ui:VisualElement>
+            <ui:VisualElement class="readout">
+                <ui:Label text="ARTIFACTS" class="readout-label" />
+                <ui:Label name="res-artifacts" text="--" class="readout-value" />
+            </ui:VisualElement>
+            <ui:VisualElement class="readout">
+                <ui:Label text="SANITY" class="readout-label" />
+                <ui:Label name="res-sanity" text="--" class="readout-value" />
+            </ui:VisualElement>
+            <ui:VisualElement class="readout">
+                <ui:Label text="GLOBAL STABILITY" class="readout-label" />
+                <ui:Label name="res-stability" text="--" class="readout-value" />
+            </ui:VisualElement>
+            <ui:VisualElement class="spacer" />
+            <ui:Label name="lbl-date" text="DAY 001" class="date" />
+            <ui:Button name="btn-pause" text="PAUSE" class="btn btn-ghost" />
+        </ui:VisualElement>
+
+        <!-- Left: selected region / tile dossier -->
+        <ui:VisualElement name="left-panel" class="side-panel left-panel">
+            <ui:Label name="panel-title" text="WORLD OVERVIEW" class="panel-title" />
+            <ui:Label name="panel-subtitle" text="Select a tile or region" class="panel-subtitle" />
+            <ui:VisualElement name="stat-block" class="stat-block">
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Influence" class="stat-name" />
+                    <ui:Label name="stat-influence" text="--" class="stat-val" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Stability" class="stat-name" />
+                    <ui:Label name="stat-stability" text="--" class="stat-val" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Development" class="stat-name" />
+                    <ui:Label name="stat-development" text="--" class="stat-val" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label name="panel-body" text="" class="panel-body" />
+            <ui:Label name="panel-characters" text="" class="panel-body muted" />
+        </ui:VisualElement>
+
+        <!-- Right: contextual actions -->
+        <ui:VisualElement name="right-panel" class="side-panel right-panel">
+            <ui:Label text="DIRECTIVES" class="panel-title" />
+            <ui:ScrollView name="actions-scroll" class="actions-scroll">
+                <ui:VisualElement name="actions-list" class="actions-list" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <!-- Bottom: log -->
+        <ui:VisualElement name="bottom-log" class="bottom-log">
+            <ui:Label text="OPERATIONS LOG" class="panel-title small" />
+            <ui:Label name="log-text" text="World initialized." class="log-text" />
+        </ui:VisualElement>
+
+        <!-- Map mode bar -->
+        <ui:VisualElement name="mode-bar" class="mode-bar">
+            <ui:Button name="mode-terrain" text="Terrain" class="btn mode-btn mode-active" />
+            <ui:Button name="mode-political" text="Political" class="btn mode-btn" />
+            <ui:Button name="mode-influence" text="Influence" class="btn mode-btn" />
+            <ui:Button name="mode-stability" text="Stability" class="btn mode-btn" />
+            <ui:Button name="mode-development" text="Development" class="btn mode-btn" />
+            <ui:Button name="mode-danger" text="Danger" class="btn mode-btn" />
+        </ui:VisualElement>
+
+        <!-- Hover tooltip -->
+        <ui:VisualElement name="tooltip" class="tooltip" picking-mode="Ignore">
+            <ui:Label name="tooltip-text" text="" class="tooltip-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

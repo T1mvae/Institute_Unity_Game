@@ -1,0 +1,148 @@
+[
+  {
+    "id": "collect_taxes",
+    "displayName": "Collect Taxes",
+    "sanityCost": 5,
+    "moneyGain": 18,
+    "influenceDelta": -5,
+    "stabilityDelta": -10,
+    "developmentDelta": 0,
+    "cooldownSeconds": 6
+  },
+  {
+    "id": "hold_festival",
+    "displayName": "Hold Festival",
+    "moneyCost": 18,
+    "sanityGain": 6,
+    "influenceDelta": 5,
+    "stabilityDelta": 8,
+    "developmentDelta": -5,
+    "cooldownSeconds": 14
+  },
+  {
+    "id": "research_grant",
+    "displayName": "Research Grant",
+    "moneyCost": 20,
+    "influenceDelta": 0,
+    "stabilityDelta": -5,
+    "developmentDelta": 12,
+    "cooldownSeconds": 10
+  },
+  {
+    "id": "artifact_hunt",
+    "displayName": "Artifact Hunt",
+    "sanityCost": 5,
+    "moneyCost": 10,
+    "artifactsGain": 1,
+    "cooldownSeconds": 15
+  },
+  {
+    "id": "propaganda_campaign",
+    "displayName": "Propaganda Campaign",
+    "sanityCost": 6,
+    "moneyCost": 8,
+    "influenceDelta": 10,
+    "stabilityDelta": 5,
+    "developmentDelta": -5,
+    "cooldownSeconds": 10
+  },
+
+  {
+    "id": "build_clinic",
+    "displayName": "Build Clinic",
+    "moneyCost": 40,
+    "structureName": "Clinic",
+    "developmentDelta": 8,
+    "stabilityDelta": 5,
+    "exposureRisk": 5,
+    "cooldownSeconds": 30
+  },
+  {
+    "id": "establish_guild",
+    "displayName": "Establish Guild Hall",
+    "moneyCost": 35,
+    "structureName": "Guild",
+    "developmentDelta": 10,
+    "influenceDelta": 5,
+    "cooldownSeconds": 30
+  },
+  {
+    "id": "found_school",
+    "displayName": "Found School",
+    "moneyCost": 45,
+    "structureName": "School",
+    "developmentDelta": 12,
+    "stabilityDelta": 5,
+    "cooldownSeconds": 35
+  },
+  {
+    "id": "plant_network",
+    "displayName": "Plant Contact Network",
+    "moneyCost": 20,
+    "structureName": "Network",
+    "influenceDelta": 8,
+    "exposureRisk": 8,
+    "cooldownSeconds": 30
+  },
+
+  {
+    "id": "royal_audience",
+    "displayName": "Royal Audience",
+    "targetType": "State",
+    "moneyCost": 25,
+    "minStateStability": 20,
+    "stateInfluenceDelta": 10,
+    "stateStabilityDelta": 5,
+    "cooldownSeconds": 20
+  },
+  {
+    "id": "foment_dissent",
+    "displayName": "Foment Dissent",
+    "targetType": "State",
+    "sanityCost": 6,
+    "exposureRisk": 8,
+    "stateInfluenceDelta": 8,
+    "stateStabilityDelta": -15,
+    "cooldownSeconds": 30
+  },
+
+  {
+    "id": "safe_house_rest",
+    "displayName": "Safe House: Rest",
+    "targetType": "Self",
+    "sanityGain": 12,
+    "cooldownSeconds": 25
+  },
+  {
+    "id": "spy_drone_recon",
+    "displayName": "Shadow: Spy Drone Recon",
+    "targetType": "Self",
+    "isShadowInstrument": true,
+    "moneyCost": 5,
+    "influenceDelta": 15,
+    "exposureRisk": 15,
+    "cooldownSeconds": 18
+  },
+  {
+    "id": "silent_removal",
+    "displayName": "Shadow: Silent Removal",
+    "targetType": "Self",
+    "isShadowInstrument": true,
+    "sanityCost": 8,
+    "influenceDelta": 20,
+    "stabilityDelta": -15,
+    "exposureRisk": 25,
+    "cooldownSeconds": 40
+  },
+  {
+    "id": "covert_toxin",
+    "displayName": "Shadow: Covert Toxin",
+    "targetType": "Self",
+    "isShadowInstrument": true,
+    "sanityCost": 6,
+    "developmentDelta": -12,
+    "stabilityDelta": -15,
+    "exposureRisk": 20,
+    "cooldownSeconds": 35
+  }
+]

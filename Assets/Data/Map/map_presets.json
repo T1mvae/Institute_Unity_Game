@@ -1,0 +1,8 @@
+{
+  "presets": [
+    { "id": "DebugTiny", "displayName": "Debug Tiny", "width": 14, "height": 10, "targetRegionCount": 5,  "unclaimedLandFraction": 0.30, "seaFraction": 0.30, "terrainRoughness": 0.5, "continentFrequency": 0.12 },
+    { "id": "Small",     "displayName": "Small",      "width": 32, "height": 24, "targetRegionCount": 14, "unclaimedLandFraction": 0.28, "seaFraction": 0.34, "terrainRoughness": 0.5, "continentFrequency": 0.10 },
+    { "id": "Medium",    "displayName": "Medium",     "width": 48, "height": 32, "targetRegionCount": 22, "unclaimedLandFraction": 0.28, "seaFraction": 0.34, "terrainRoughness": 0.5, "continentFrequency": 0.085 },
+    { "id": "Large",     "displayName": "Large",      "width": 64, "height": 40, "targetRegionCount": 30, "unclaimedLandFraction": 0.26, "seaFraction": 0.36, "terrainRoughness": 0.55, "continentFrequency": 0.07 }
+  ]
+}

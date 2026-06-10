@@ -1,0 +1,43 @@
+<linker>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UIElementsModule">
+		<type fullname="UnityEngine.UIElements.Button/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.DynamicAtlasSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.Label/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.ScrollView/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.Slider/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleComplexSelector" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleProperty" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleRule" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleSelector" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleSelectorPart" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleSheet/ImportStruct" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleSheets.Dimension" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleSheets.ScalableImage" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.StyleValueHandle" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.Toggle/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.UxmlNamespaceDefinition" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.VisualElement/UxmlSerializedData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UIElements.VisualElementAsset" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

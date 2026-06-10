@@ -1,0 +1,61 @@
+.setup-root {
+    flex-direction: column;
+    padding: 28px;
+}
+
+.setup-header {
+    height: 74px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setup-content {
+    flex-grow: 1;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.difficulty-list {
+    width: 42%;
+}
+
+.difficulty-details {
+    flex-grow: 1;
+}
+
+.difficulty-card {
+    margin-bottom: 12px;
+    padding: 14px;
+    min-height: 100px;
+    background-color: rgba(24, 32, 51, 0.80);
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.difficulty-card:hover {
+    border-color: #8B5CF6;
+}
+
+.difficulty-card-selected {
+    border-color: #00D4AA;
+    background-color: rgba(38, 54, 95, 0.85);
+}
+
+.custom-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.custom-field {
+    width: 48%;
+}
+
+.setup-actions {
+    height: 58px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}

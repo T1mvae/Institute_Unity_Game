@@ -1,0 +1,10 @@
+{
+  "layoutName": "MainMenu",
+  "maxContentWidth": 1180,
+  "titleColumnWidth": 620,
+  "buttonColumnWidth": 320,
+  "verticalSpacing": 16,
+  "backgroundGridColumns": 18,
+  "backgroundGridRows": 10,
+  "footerMargin": 24
+}

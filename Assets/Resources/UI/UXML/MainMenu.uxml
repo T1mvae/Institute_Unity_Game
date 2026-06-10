@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="MainMenuRoot" class="root-screen menu-root">
+        <ui:VisualElement class="menu-grid">
+            <ui:VisualElement class="menu-title-column">
+                <ui:Label name="TitleLabel" text="THE INSTITUTE" class="title" />
+                <ui:Label name="SubtitleLabel" text="Strategic influence console for a low-development world." class="menu-subtitle" />
+                <ui:VisualElement class="about-card">
+                    <ui:Label text="Planetary dossier, covert assets, unstable nobility, and a worrying amount of responsibility." class="body-copy" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="panel menu-button-column">
+                <ui:Button name="NewGameButton" text="NEW GAME" class="institute-button primary-button" />
+                <ui:Button name="ContinueButton" text="CONTINUE" class="institute-button" />
+                <ui:Button name="LoadGameButton" text="LOAD GAME" class="institute-button" />
+                <ui:Button name="SettingsButton" text="SETTINGS" class="institute-button" />
+                <ui:Button name="CreditsButton" text="ABOUT" class="institute-button" />
+                <ui:Button name="ExitButton" text="EXIT" class="institute-button danger-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="menu-footer">
+            <ui:Label name="VersionLabel" text="Prototype" />
+            <ui:Label text="Institute strategic tablet interface" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

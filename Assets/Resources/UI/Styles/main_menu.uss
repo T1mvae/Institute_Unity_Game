@@ -1,0 +1,50 @@
+.menu-root {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-grid {
+    width: 1180px;
+    max-width: 92%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-title-column {
+    width: 620px;
+}
+
+.menu-button-column {
+    width: 340px;
+    padding: 18px;
+}
+
+.menu-subtitle {
+    margin-top: 14px;
+    max-width: 560px;
+    color: #AAB2C5;
+    font-size: 18px;
+    white-space: normal;
+}
+
+.menu-footer {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #6B7280;
+    font-size: 12px;
+}
+
+.about-card {
+    margin-top: 24px;
+    padding: 14px;
+    background-color: rgba(24, 32, 51, 0.70);
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 10px;
+}

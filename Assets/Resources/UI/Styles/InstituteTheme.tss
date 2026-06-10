@@ -1,0 +1,6 @@
+/* Institute Theme Style Sheet.
+   Imports Unity's built-in default runtime theme so UI Toolkit controls and text render with a
+   valid default font/control styling. This backs Assets/UI/PanelSettings/InstitutePanelSettings.asset
+   (created by Tools / Institute Game / Repair UI Toolkit Setup). The runtime fallback loads the
+   Resources copy at Assets/Resources/UI/InstituteRuntimeTheme.tss. */
+@import url("unity-theme://default");

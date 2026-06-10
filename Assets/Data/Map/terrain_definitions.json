@@ -1,0 +1,188 @@
+{
+    "terrains": [
+        {
+            "id": "DeepSea",
+            "displayName": "Deep Sea",
+            "colorHex": "#0A1A2E",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": true,
+            "isWalkable": false,
+            "regionGrowthCost": 999.0,
+            "movementCost": 999.0,
+            "tags": [
+                "water"
+            ]
+        },
+        {
+            "id": "Sea",
+            "displayName": "Sea",
+            "colorHex": "#15324D",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": true,
+            "isWalkable": false,
+            "regionGrowthCost": 999.0,
+            "movementCost": 999.0,
+            "tags": [
+                "water"
+            ]
+        },
+        {
+            "id": "Coast",
+            "displayName": "Coast",
+            "colorHex": "#1E5470",
+            "regionAllowed": true,
+            "canBeRegionSeed": true,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 1.2999999523162842,
+            "movementCost": 1.5,
+            "tags": [
+                "coastal"
+            ]
+        },
+        {
+            "id": "Plains",
+            "displayName": "Plains",
+            "colorHex": "#5C8A3A",
+            "regionAllowed": true,
+            "canBeRegionSeed": true,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 1.0,
+            "movementCost": 1.0,
+            "tags": [
+                "fertile"
+            ]
+        },
+        {
+            "id": "Forest",
+            "displayName": "Forest",
+            "colorHex": "#2F6B3A",
+            "regionAllowed": true,
+            "canBeRegionSeed": true,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 1.7999999523162842,
+            "movementCost": 1.600000023841858,
+            "tags": [
+                "wooded"
+            ]
+        },
+        {
+            "id": "Hills",
+            "displayName": "Hills",
+            "colorHex": "#7A7A45",
+            "regionAllowed": true,
+            "canBeRegionSeed": true,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 2.200000047683716,
+            "movementCost": 2.0,
+            "tags": [
+                "rough"
+            ]
+        },
+        {
+            "id": "Mountains",
+            "displayName": "Mountains",
+            "colorHex": "#6E6A66",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": false,
+            "regionGrowthCost": 6.0,
+            "movementCost": 99.0,
+            "tags": [
+                "impassable",
+                "rough"
+            ]
+        },
+        {
+            "id": "Swamp",
+            "displayName": "Swamp",
+            "colorHex": "#3E5240",
+            "regionAllowed": true,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 3.0,
+            "movementCost": 2.5,
+            "tags": [
+                "wet"
+            ]
+        },
+        {
+            "id": "Desert",
+            "displayName": "Desert",
+            "colorHex": "#C2A55B",
+            "regionAllowed": true,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 2.5999999046325685,
+            "movementCost": 1.7999999523162842,
+            "tags": [
+                "arid"
+            ]
+        },
+        {
+            "id": "Ruins",
+            "displayName": "Ruins",
+            "colorHex": "#5A4A6A",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 4.0,
+            "movementCost": 1.5,
+            "tags": [
+                "ancient",
+                "artifacts"
+            ]
+        },
+        {
+            "id": "Wasteland",
+            "displayName": "Wasteland",
+            "colorHex": "#4A3A33",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 5.0,
+            "movementCost": 2.0,
+            "tags": [
+                "hostile"
+            ]
+        },
+        {
+            "id": "SacredLand",
+            "displayName": "Sacred Land",
+            "colorHex": "#8A6BB0",
+            "regionAllowed": true,
+            "canBeRegionSeed": true,
+            "isWater": false,
+            "isWalkable": true,
+            "regionGrowthCost": 2.0,
+            "movementCost": 1.2000000476837159,
+            "tags": [
+                "holy"
+            ]
+        },
+        {
+            "id": "Blocked",
+            "displayName": "Blocked",
+            "colorHex": "#2A2A2A",
+            "regionAllowed": false,
+            "canBeRegionSeed": false,
+            "isWater": false,
+            "isWalkable": false,
+            "regionGrowthCost": 999.0,
+            "movementCost": 999.0,
+            "tags": [
+                "impassable"
+            ]
+        }
+    ]
+}

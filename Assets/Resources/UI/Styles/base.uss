@@ -1,0 +1,135 @@
+.root-screen {
+    flex-grow: 1;
+    background-color: #080B12;
+    color: #F2F5FF;
+    -unity-font-style: normal;
+}
+
+.institute-background {
+    flex-grow: 1;
+    background-color: #080B12;
+}
+
+.tablet-shell {
+    margin: 32px;
+    padding: 28px;
+    background-color: rgba(18, 24, 38, 0.90);
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 14px;
+}
+
+.panel {
+    padding: 16px;
+    background-color: rgba(18, 24, 38, 0.90);
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.panel-alt {
+    background-color: rgba(24, 32, 51, 0.90);
+}
+
+.title {
+    color: #F2F5FF;
+    font-size: 52px;
+    -unity-font-style: bold;
+    letter-spacing: 3px;
+}
+
+.header {
+    color: #F2F5FF;
+    font-size: 36px;
+    -unity-font-style: bold;
+}
+
+.section-title {
+    color: #8B5CF6;
+    font-size: 16px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+}
+
+.body-copy {
+    color: #AAB2C5;
+    font-size: 16px;
+    white-space: normal;
+}
+
+.meta-label {
+    color: #AAB2C5;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.institute-button {
+    height: 44px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #F2F5FF;
+    background-color: #1A2440;
+    border-color: #33415F;
+    border-width: 1px;
+    border-radius: 8px;
+    -unity-font-style: bold;
+}
+
+.institute-button:hover {
+    background-color: #26365F;
+    border-color: #8B5CF6;
+}
+
+.institute-button:active {
+    background-color: #31467D;
+}
+
+.institute-button:disabled {
+    color: #6B7280;
+    background-color: #151B2B;
+    border-color: #222A3D;
+}
+
+.primary-button {
+    background-color: #6D4BD8;
+    border-color: #8B5CF6;
+}
+
+.danger-button {
+    background-color: #40202A;
+    border-color: #EF4444;
+}
+
+.input-field {
+    height: 36px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: #AAB2C5;
+}
+
+.input-field .unity-text-field__input,
+.input-field .unity-base-text-field__input {
+    color: #F2F5FF;
+    background-color: #10182B;
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.input-field .unity-text-field__input:hover,
+.input-field .unity-base-text-field__input:hover {
+    border-color: #8B5CF6;
+}
+
+.input-field .unity-text-field__input:focus,
+.input-field .unity-base-text-field__input:focus {
+    border-color: #00D4AA;
+    background-color: #182033;
+}
+
+.hidden {
+    display: none;
+}

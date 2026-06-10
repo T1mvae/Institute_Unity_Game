@@ -1,0 +1,46 @@
+.popup-scrim {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.72);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-card {
+    width: 620px;
+    max-width: 86%;
+    padding: 24px;
+    background-color: rgba(18, 24, 38, 0.96);
+    border-color: #8B5CF6;
+    border-width: 1px;
+    border-radius: 14px;
+}
+
+.settings-row {
+    min-height: 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Overlay dialogs for PauseMenu.uxml / EventPopup.uxml / Settings.uxml */
+.overlay {
+    position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.72);
+    justify-content: center; align-items: center;
+}
+.dialog {
+    width: 420px; max-width: 86%; padding: 24px;
+    background-color: rgba(18, 24, 38, 0.97);
+    border-color: #8B5CF6; border-width: 1px; border-radius: 14px;
+}
+.dialog-wide { width: 720px; }
+.dialog-title { color: #F2F5FF; font-size: 24px; -unity-font-style: bold; letter-spacing: 2px; margin-bottom: 16px; }
+.dialog-body { color: #C7CEDC; font-size: 14px; white-space: normal; margin-bottom: 16px; }
+.dialog-options { flex-direction: column; }
+.form-row { flex-direction: row; justify-content: space-between; align-items: center; min-height: 44px; }
+.form-label { color: #AAB2C5; font-size: 14px; }
+.form-control { width: 220px; }

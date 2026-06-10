@@ -1,0 +1,32 @@
+{
+  "presets": [
+    {
+      "id": "Easy", "displayName": "Easy",
+      "startingMoney": 150, "startingArtifacts": 8, "startingSanity": 100,
+      "influenceBias": -6, "stabilityBias": 6, "developmentBias": 4,
+      "eventFrequencyMultiplier": 0.75, "decisionCostMultiplier": 0.85,
+      "unclaimedLandFraction": 0.22
+    },
+    {
+      "id": "Normal", "displayName": "Normal",
+      "startingMoney": 100, "startingArtifacts": 5, "startingSanity": 100,
+      "influenceBias": 0, "stabilityBias": 0, "developmentBias": 0,
+      "eventFrequencyMultiplier": 1.0, "decisionCostMultiplier": 1.0,
+      "unclaimedLandFraction": 0.28
+    },
+    {
+      "id": "Hard", "displayName": "Hard",
+      "startingMoney": 70, "startingArtifacts": 3, "startingSanity": 80,
+      "influenceBias": 8, "stabilityBias": -6, "developmentBias": -4,
+      "eventFrequencyMultiplier": 1.35, "decisionCostMultiplier": 1.25,
+      "unclaimedLandFraction": 0.34
+    },
+    {
+      "id": "Custom", "displayName": "Custom",
+      "startingMoney": 100, "startingArtifacts": 5, "startingSanity": 100,
+      "influenceBias": 0, "stabilityBias": 0, "developmentBias": 0,
+      "eventFrequencyMultiplier": 1.0, "decisionCostMultiplier": 1.0,
+      "unclaimedLandFraction": 0.28
+    }
+  ]
+}

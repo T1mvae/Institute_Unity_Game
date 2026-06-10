@@ -1,0 +1,155 @@
+.gameplay-root {
+    flex-grow: 1;
+    background-color: #080B12;
+}
+
+.gameplay-topbar {
+    height: 72px;
+    margin: 16px;
+    margin-bottom: 0;
+    padding: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resource-strip {
+    flex-direction: row;
+    gap: 12px;
+}
+
+.resource-pill {
+    min-width: 130px;
+    padding: 8px 12px;
+    background-color: rgba(24, 32, 51, 0.86);
+    border-color: #2A3655;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.gameplay-left-panel {
+    position: absolute;
+    left: 16px;
+    top: 104px;
+    bottom: 158px;
+    width: 320px;
+}
+
+.gameplay-right-panel {
+    position: absolute;
+    right: 16px;
+    top: 104px;
+    bottom: 158px;
+    width: 360px;
+}
+
+.gameplay-bottom-log {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    height: 126px;
+}
+
+.map-mode-bar {
+    position: absolute;
+    bottom: 158px;
+    left: 50%;
+    translate: -50% 0;
+    width: 640px;
+    height: 52px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* ============================================================
+   New data-driven gameplay HUD (GameplayHUD.uxml).
+   Colors mirror Assets/Data/UI/theme.json tokens.
+   ============================================================ */
+
+.hud-root { flex-grow: 1; }
+
+.top-bar {
+    position: absolute;
+    left: 16px; right: 16px; top: 16px; height: 64px;
+    flex-direction: row; align-items: center;
+    padding-left: 16px; padding-right: 16px;
+    background-color: rgba(13, 18, 32, 0.94);
+    border-color: #2A3655; border-width: 1px; border-radius: 10px;
+}
+.brand { color: #8B5CF6; font-size: 18px; -unity-font-style: bold; letter-spacing: 2px; margin-right: 24px; }
+.readout { margin-right: 22px; }
+.readout-label { color: #70798F; font-size: 10px; letter-spacing: 1px; }
+.readout-value { color: #F2F5FF; font-size: 20px; -unity-font-style: bold; }
+.spacer { flex-grow: 1; }
+.date { color: #38BDF8; font-size: 16px; -unity-font-style: bold; margin-right: 16px; }
+
+.btn {
+    height: 34px; padding-left: 16px; padding-right: 16px;
+    color: #F2F5FF; background-color: #1A2440;
+    border-color: #33415F; border-width: 1px; border-radius: 6px;
+    -unity-font-style: bold;
+}
+.btn:hover { background-color: #26365F; border-color: #8B5CF6; }
+.btn:active { background-color: #31467D; }
+.btn:disabled { color: #6B7280; background-color: #151B2B; }
+.btn-ghost { background-color: rgba(0,0,0,0); border-color: #33415F; }
+.btn-primary { background-color: #6D4BD8; border-color: #8B5CF6; }
+.btn-danger { background-color: #40202A; border-color: #EF4444; }
+
+.side-panel {
+    position: absolute; top: 96px; bottom: 150px; width: 320px;
+    padding: 16px;
+    background-color: rgba(18, 24, 38, 0.92);
+    border-color: #2A3655; border-width: 1px; border-radius: 10px;
+}
+.left-panel { left: 16px; }
+.right-panel { right: 16px; width: 300px; }
+
+.panel-title { color: #8B5CF6; font-size: 16px; -unity-font-style: bold; letter-spacing: 2px; }
+.panel-title.small { font-size: 12px; }
+.panel-subtitle { color: #AAB2C5; font-size: 13px; margin-bottom: 10px; white-space: normal; }
+.panel-body { color: #C7CEDC; font-size: 13px; white-space: normal; margin-top: 8px; }
+.muted { color: #70798F; }
+
+.stat-block { margin-top: 8px; margin-bottom: 8px; }
+.stat-row { flex-direction: row; justify-content: space-between; height: 26px; align-items: center; }
+.stat-name { color: #AAB2C5; font-size: 14px; }
+.stat-val { color: #F4F7FF; font-size: 16px; -unity-font-style: bold; }
+
+.actions-scroll { flex-grow: 1; margin-top: 8px; }
+.actions-list { flex-direction: column; }
+.action-card {
+    margin-bottom: 8px; padding: 10px;
+    background-color: #1A2440; border-color: #33415F; border-width: 1px; border-radius: 8px;
+}
+.action-card:hover { border-color: #8B5CF6; }
+.action-title { color: #F2F5FF; font-size: 14px; -unity-font-style: bold; }
+.action-desc { color: #AAB2C5; font-size: 12px; white-space: normal; }
+
+.bottom-log {
+    position: absolute; left: 352px; right: 16px; bottom: 16px; height: 120px;
+    padding: 12px;
+    background-color: rgba(13, 18, 32, 0.92);
+    border-color: #2A3655; border-width: 1px; border-radius: 10px;
+}
+.log-text { color: #AAB2C5; font-size: 12px; white-space: normal; margin-top: 6px; }
+
+.mode-bar {
+    position: absolute; bottom: 150px; left: 50%; translate: -50% 0;
+    flex-direction: row; gap: 6px;
+    padding: 6px; background-color: rgba(13, 18, 32, 0.92);
+    border-color: #2A3655; border-width: 1px; border-radius: 8px;
+}
+.mode-btn { height: 30px; font-size: 12px; }
+.mode-active { background-color: #6D4BD8; border-color: #8B5CF6; }
+
+.tooltip {
+    position: absolute; left: 0; top: 0; max-width: 280px;
+    padding: 8px 10px;
+    background-color: rgba(8, 11, 18, 0.96);
+    border-color: #8B5CF6; border-width: 1px; border-radius: 6px;
+    display: none;
+}
+.tooltip-text { color: #F2F5FF; font-size: 12px; white-space: normal; }

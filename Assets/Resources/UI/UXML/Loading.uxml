@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="LoadingRoot" class="root-screen menu-root">
+        <ui:VisualElement class="panel">
+            <ui:Label text="SYNCHRONIZING INSTITUTE CONSOLE" class="section-title" />
+            <ui:Label name="LoadingStatus" text="Loading strategic state..." class="body-copy" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

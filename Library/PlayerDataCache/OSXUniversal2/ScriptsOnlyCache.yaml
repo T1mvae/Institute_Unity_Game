@@ -1,0 +1,1047 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - GameBootstrapper
+    - Institute.World.WorldGameplayInstaller
+    - LoadingScreenController
+    - MainMenuUIController
+    - NewGameSetupUIController
+    - SettingsUIController
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+  serializedClasses:
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
+    UnityEngine.UIElementsModule:
+    - UnityEngine.UIElements.Button/UxmlSerializedData
+    - UnityEngine.UIElements.DynamicAtlasSettings
+    - UnityEngine.UIElements.Label/UxmlSerializedData
+    - UnityEngine.UIElements.ScrollView/UxmlSerializedData
+    - UnityEngine.UIElements.Slider/UxmlSerializedData
+    - UnityEngine.UIElements.StyleComplexSelector
+    - UnityEngine.UIElements.StyleProperty
+    - UnityEngine.UIElements.StyleRule
+    - UnityEngine.UIElements.StyleSelector
+    - UnityEngine.UIElements.StyleSelectorPart
+    - UnityEngine.UIElements.StyleSheet/ImportStruct
+    - UnityEngine.UIElements.StyleSheets.Dimension
+    - UnityEngine.UIElements.StyleSheets.ScalableImage
+    - UnityEngine.UIElements.StyleValueHandle
+    - UnityEngine.UIElements.Toggle/UxmlSerializedData
+    - UnityEngine.UIElements.UxmlNamespaceDefinition
+    - UnityEngine.UIElements.VisualElement/UxmlSerializedData
+    - UnityEngine.UIElements.VisualElementAsset
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/Boot.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 632}
+    - Class: 114
+      Script: {instanceID: 634}
+    - Class: 114
+      Script: {instanceID: 636}
+    - Class: 114
+      Script: {instanceID: 658}
+    - Class: 114
+      Script: {instanceID: 6368}
+    - Class: 114
+      Script: {instanceID: 6664}
+    - Class: 114
+      Script: {instanceID: 7688}
+    - Class: 114
+      Script: {instanceID: 7744}
+    - Class: 114
+      Script: {instanceID: 8612}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Gameplay.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 7582}
+    - Class: 114
+      Script: {instanceID: 7854}
+    - Class: 114
+      Script: {instanceID: 26896}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Loading.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 632}
+    - Class: 114
+      Script: {instanceID: 634}
+    - Class: 114
+      Script: {instanceID: 7730}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 632}
+    - Class: 114
+      Script: {instanceID: 634}
+    - Class: 114
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 8706}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/NewGameSetup.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 632}
+    - Class: 114
+      Script: {instanceID: 634}
+    - Class: 114
+      Script: {instanceID: 5838}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 43905227f647948a42fbcb1f432cbe2b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RegionGridGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: a47a2832af0bb7cd926de90c90fc0486
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActionButton
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf62aad97f6c2dd5d482e2509c6c9528
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a1efa4ef68ddd9321c1a0c31f7c99006
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResourceBarUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5da9eb3d902e18e096ea8c9e0dc36720
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DecisionPanelController
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 2ec2582308d6a1c6559ae281191aaa77
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NewGameSetupUIController
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: c7691f9d16ec356fc83eed07c117d644
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingsUIController
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: e560333b879a58b7255be55898e54888
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameplayHUDController
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: dd1cee871d61918dd81d61cf80cf79f0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerLogUI
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2c64400ffeb62b8cc3a3ce8e5747127b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameDateTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 40b06d1238af230affd353bc1b2ef537
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4d36571b7f3629b1aa6661f14e724c6c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VoronoiRegionGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 9cfbbbd5471e23a7781e656c947771a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ToggleIconSwap
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: d5fe343c3103f41f9445d499fd095c0b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DecisionPanelUI
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 0b77341e6df6cc732570c6e433c9ac8b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ReturnToMenu
+  - hash:
+      serializedVersion: 2
+      Hash: bc3b6c2578e880d26fa8995762b82b9e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CharacterPanelUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4d059d3b47793489c27f624999753482
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0f7787e7b176e6687ba44b0892bfe33f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RegionPanelController
+  - hash:
+      serializedVersion: 2
+      Hash: f4869ba97e7eddd678c9cb5166acbe40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerLog
+  - hash:
+      serializedVersion: 2
+      Hash: d3be2069c871cecea9ca41b8f94d32ca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HexMapGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: f27feb0502fc821135331399d2e290a4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneFlowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 44b62cd96e8493aa49758eb904a1eaf5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tooltip
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 75c81f62f38a05b6bc265fad730d51dc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CharacterManager
+  - hash:
+      serializedVersion: 2
+      Hash: 379d652115bcf549d2cecc22576a395d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TooltipTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: bac9187fee7f43f3f7bd37e1b2ee0ba3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StyledButton
+  - hash:
+      serializedVersion: 2
+      Hash: a4ba242ad7c19ed77c775b388363e75c
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: ed042563555c97c29e7e4d844552d949
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameplaySceneInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 10399b4e44f874d68a2dad01fa7b8c30
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: d02f427385c115aca18b0682b0c04d80
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MapLegendUI
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 1777be3ec43b8e03c576825242468185
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventPopupController
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 3bfa500d0758bd30a2af7a66551a6a6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveLoadMenuUI
+  - hash:
+      serializedVersion: 2
+      Hash: 845def2959c6f5d7f1115b5bc876447e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RegionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1bf65b73c5565150cb5e920ac98bc007
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TimerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: df1cd188271a5dfef66d87baf706c57e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DecisionPool
+  - hash:
+      serializedVersion: 2
+      Hash: c6024934d4b1ae29491045bf834535a9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RegionUI
+  - hash:
+      serializedVersion: 2
+      Hash: 3bb7db9e2af9d934b2a8473be7a1ad4c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: d8c7fb0ce7324ab156f3561d2bec066c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CanvasScrollZoom
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e5f9868e485ac5248f96a3be584a5e4a
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bc8025770e098383fd3cb5d5c451d5e2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab257d217b550c8d6a85911c05e3850
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelController
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ed64d7fb7f005a8a56fefe8f610ae325
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HexMapCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d199819017c7d93d5c3a809e4cea51dd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadingScreenController
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b2aa90179dedb9f4d639aaee09a10689
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventPanelUI
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d584982edbf8ebc8ae62b5a95e8fea79
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ConfigLoader
+  - hash:
+      serializedVersion: 2
+      Hash: ee3c877504ead90c7d24dbbc9f448c11
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 625da4f16092e8045900c9e602e6fac7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DecisionSelectionManager
+  - hash:
+      serializedVersion: 2
+      Hash: db6133687572f9dc24f1fd4238ef9b83
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4663ce278bf334bc7cb334ea8061129e
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: e44b617a7491b082ec6d8ffd46d872d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameLogUIController
+  - hash:
+      serializedVersion: 2
+      Hash: 4fff715015f4dc50eff671eaed0739ae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: d78ba6d9a6307e1240b43d499629fec3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveLoadManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dee4b3b7544e6cdce634321479d75e6c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StyledPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5dacf9c015528a60b24a7f06a1cdfffd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameBootstrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ce8e37f1f9c3617fc576da27c7e5410d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuUIController
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 423a204f105739da55558e8e0d136a67
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4d5093490f4b43d82a7f0c26a51bd076
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MapViewController
+  - hash:
+      serializedVersion: 2
+      Hash: e47d77dff9f7fd0f54480d10a98b411f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7e555ecdade5f30376a2465b15d615b1
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: WorldCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 3cf38e5ef81391d859a5dfc05b332c5e
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.UI
+    className: WorldHUDController
+  - hash:
+      serializedVersion: 2
+      Hash: 3890a81308f4d60c8d6ea0a995a6aa8f
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: MapRenderManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8bac7e5edf456ef173d701e0c6ddc2b8
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: MapSelectionController
+  - hash:
+      serializedVersion: 2
+      Hash: 65be39e80530db9d04826d8397419c40
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: RegionOverlayRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa2c4d674ca77d67e2eff4e38af0a2a
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: WorldGameplayInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 2dab05b8820ddcb61dfdd0d0c81f96be
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: WorldController
+  - hash:
+      serializedVersion: 2
+      Hash: 17e920b33be9b28c49d132f859ba6810
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.Gameplay
+    className: RegionEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 940768baba8fde42fc9ddf7f13e64d28
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.Gameplay
+    className: RegionCharacterSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 31d0b7d6aeacc58b9ab440abd5f760c6
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.UI
+    className: WorldPauseController
+  - hash:
+      serializedVersion: 2
+      Hash: 88123672bfac59f75f70071f8bef49a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.UI
+    className: WorldEventPopupController
+  - hash:
+      serializedVersion: 2
+      Hash: af47eea5f7568373136f1b5d526c3f65
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.Gameplay
+    className: RegionDecisionSystem
+  - hash:
+      serializedVersion: 2
+      Hash: bbdaa966836c991639fb5bd278d1f312
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.UI
+    className: WorldSettingsController
+  - hash:
+      serializedVersion: 2
+      Hash: 837fdc86149449add0f2c7ffc865196a
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World
+    className: RuntimeDiagnostics
+  - hash:
+      serializedVersion: 2
+      Hash: bcb12253facc01ddcf23342b027dadfd
+    assemblyName: Assembly-CSharp
+    namespaceName: Institute.World.Gameplay
+    className: EconomySystem
+  platform: 2
+  scenePathNames:
+  - Assets/Scenes/Boot.unity
+  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/NewGameSetup.unity
+  - Assets/Scenes/Loading.unity
+  - Assets/Scenes/Gameplay.unity
+  playerPath: /Users/timkuz/Documents/Plague Inc Clone Starter/The Institute.app

@@ -1,0 +1,6 @@
+/* Institute runtime Theme Style Sheet.
+   Imports Unity's built-in default runtime theme so UI Toolkit controls and text (default font,
+   control styling) render at runtime. Loaded via Resources.Load<ThemeStyleSheet>("UI/InstituteRuntimeTheme")
+   and assigned to the shared PanelSettings, which removes the
+   "No Theme Style Sheet set to PanelSettings" warning. */
+@import url("unity-theme://default");

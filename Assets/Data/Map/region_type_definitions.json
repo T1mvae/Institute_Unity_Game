@@ -1,0 +1,163 @@
+{
+    "regionTypes": [
+        {
+            "id": "KingdomHeartland",
+            "displayName": "Kingdom Heartland",
+            "preferredTerrains": [
+                "Plains",
+                "Hills"
+            ],
+            "influenceBase": 65,
+            "stabilityBase": 70,
+            "developmentBase": 60,
+            "statVariance": 8,
+            "sizePreference": 1.600000023841858,
+            "tags": [
+                "core"
+            ]
+        },
+        {
+            "id": "FeudalProvince",
+            "displayName": "Feudal Province",
+            "preferredTerrains": [
+                "Plains",
+                "Forest"
+            ],
+            "influenceBase": 50,
+            "stabilityBase": 55,
+            "developmentBase": 50,
+            "statVariance": 12,
+            "sizePreference": 1.0,
+            "tags": [
+                "feudal"
+            ]
+        },
+        {
+            "id": "FrontierMarch",
+            "displayName": "Frontier March",
+            "preferredTerrains": [
+                "Hills",
+                "Forest"
+            ],
+            "influenceBase": 40,
+            "stabilityBase": 50,
+            "developmentBase": 30,
+            "statVariance": 14,
+            "sizePreference": 1.100000023841858,
+            "tags": [
+                "frontier"
+            ]
+        },
+        {
+            "id": "TradeBasin",
+            "displayName": "Trade Basin",
+            "preferredTerrains": [
+                "Coast",
+                "Plains"
+            ],
+            "influenceBase": 55,
+            "stabilityBase": 50,
+            "developmentBase": 70,
+            "statVariance": 12,
+            "sizePreference": 0.8999999761581421,
+            "tags": [
+                "trade"
+            ]
+        },
+        {
+            "id": "TempleDomain",
+            "displayName": "Temple Domain",
+            "preferredTerrains": [
+                "SacredLand",
+                "Hills"
+            ],
+            "influenceBase": 60,
+            "stabilityBase": 72,
+            "developmentBase": 40,
+            "statVariance": 10,
+            "sizePreference": 0.800000011920929,
+            "tags": [
+                "religious"
+            ]
+        },
+        {
+            "id": "TribalConfederation",
+            "displayName": "Tribal Confederation",
+            "preferredTerrains": [
+                "Forest",
+                "Hills"
+            ],
+            "influenceBase": 35,
+            "stabilityBase": 45,
+            "developmentBase": 30,
+            "statVariance": 16,
+            "sizePreference": 1.2000000476837159,
+            "tags": [
+                "tribal"
+            ]
+        },
+        {
+            "id": "RuinedZone",
+            "displayName": "Ruined Zone",
+            "preferredTerrains": [
+                "Ruins",
+                "Wasteland"
+            ],
+            "influenceBase": 25,
+            "stabilityBase": 30,
+            "developmentBase": 25,
+            "statVariance": 18,
+            "sizePreference": 0.699999988079071,
+            "tags": [
+                "ruined",
+                "artifacts"
+            ]
+        },
+        {
+            "id": "CoastalLeague",
+            "displayName": "Coastal League",
+            "preferredTerrains": [
+                "Coast"
+            ],
+            "influenceBase": 50,
+            "stabilityBase": 55,
+            "developmentBase": 60,
+            "statVariance": 12,
+            "sizePreference": 1.0,
+            "tags": [
+                "coastal",
+                "trade"
+            ]
+        },
+        {
+            "id": "MountainClans",
+            "displayName": "Mountain Clans",
+            "preferredTerrains": [
+                "Hills"
+            ],
+            "influenceBase": 45,
+            "stabilityBase": 60,
+            "developmentBase": 35,
+            "statVariance": 12,
+            "sizePreference": 0.800000011920929,
+            "tags": [
+                "highland"
+            ]
+        },
+        {
+            "id": "NeutralSettlement",
+            "displayName": "Neutral Settlement",
+            "preferredTerrains": [
+                "Plains"
+            ],
+            "influenceBase": 40,
+            "stabilityBase": 55,
+            "developmentBase": 45,
+            "statVariance": 12,
+            "sizePreference": 0.6000000238418579,
+            "tags": [
+                "neutral"
+            ]
+        }
+    ]
+}

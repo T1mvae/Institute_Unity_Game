@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="NewGameRoot" class="root-screen setup-root">
+        <ui:VisualElement class="setup-header">
+            <ui:Label text="NEW OPERATION SETUP" class="header" />
+            <ui:Button name="BackButton" text="BACK" class="institute-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="setup-content">
+            <ui:ScrollView name="DifficultyList" class="panel difficulty-list" />
+            <ui:VisualElement name="DifficultyDetails" class="panel panel-alt difficulty-details" />
+        </ui:VisualElement>
+        <ui:VisualElement class="setup-actions">
+            <ui:Button name="RandomSeedButton" text="RANDOMIZE SEED" class="institute-button" />
+            <ui:Button name="StartGameButton" text="START GAME" class="institute-button primary-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
