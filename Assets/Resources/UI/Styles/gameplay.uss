@@ -118,6 +118,7 @@
 .stat-name { color: #AAB2C5; font-size: 14px; }
 .stat-val { color: #F4F7FF; font-size: 16px; -unity-font-style: bold; }
 
+.tab-row { flex-direction: row; gap: 6px; margin-top: 8px; margin-bottom: 4px; }
 .actions-scroll { flex-grow: 1; margin-top: 8px; }
 .actions-list { flex-direction: column; }
 .action-card {

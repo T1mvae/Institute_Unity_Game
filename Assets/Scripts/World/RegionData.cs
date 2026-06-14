@@ -30,9 +30,9 @@ namespace Institute.World
         public readonly List<string> neighborRegionIds = new List<string>();
 
         // --- Political stats. These live ONLY on the region, never on a tile. ---
-        public int influence;     // 0..100 resistance to / projection of Institute control
-        public int stability;     // 0..100 internal order
-        public int development;    // 0..100 economy / infrastructure
+        public int influence;     // 0..20 resistance to / projection of Institute control
+        public int stability;     // 0..20 internal order
+        public int development;    // 0..20 economy / infrastructure
 
         // Optional richer economy fields.
         public int population;
@@ -56,9 +56,9 @@ namespace Institute.World
 
         public void ClampStats()
         {
-            influence = Mathf.Clamp(influence, 0, 100);
-            stability = Mathf.Clamp(stability, 0, 100);
-            development = Mathf.Clamp(development, 0, 100);
+            influence = Mathf.Clamp(influence, 0, 20);
+            stability = Mathf.Clamp(stability, 0, 20);
+            development = Mathf.Clamp(development, 0, 20);
         }
 
         /// <summary>Returns the stat associated with a map mode, normalized 0..1, or -1 if N/A.</summary>
@@ -66,10 +66,10 @@ namespace Institute.World
         {
             switch (mode)
             {
-                case MapMode.Influence: return influence / 100f;
-                case MapMode.Stability: return stability / 100f;
-                case MapMode.Development: return development / 100f;
-                case MapMode.Danger: return Mathf.Clamp01(1f - stability / 100f);
+                case MapMode.Influence: return influence / 20f;
+                case MapMode.Stability: return stability / 20f;
+                case MapMode.Development: return development / 20f;
+                case MapMode.Danger: return Mathf.Clamp01(1f - stability / 20f);
                 case MapMode.Characters: return Mathf.Clamp01(characterIds.Count / 5f);
                 default: return -1f;
             }

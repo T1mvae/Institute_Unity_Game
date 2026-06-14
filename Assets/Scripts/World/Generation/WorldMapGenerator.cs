@@ -458,10 +458,10 @@ namespace Institute.World
                     if (t != null) { potentialSum += t.developmentPotential; count++; }
                 }
                 float avgPotential = count > 0 ? potentialSum / count : 0.4f;
-                dev += Mathf.RoundToInt((avgPotential - 0.4f) * 30f);
+                dev += Mathf.RoundToInt((avgPotential - 0.4f) * 6f);
 
                 // Size: bigger regions project more influence but are slightly less stable.
-                int sizeBonus = Mathf.Clamp(region.TileCount - 6, -6, 12);
+                int sizeBonus = Mathf.Clamp(region.TileCount - 6, -1, 2);
                 infl += sizeBonus;
                 stab -= Mathf.Max(0, sizeBonus / 2);
 
@@ -469,9 +469,9 @@ namespace Institute.World
                 HexTileData cap = _map.GetTile(region.capitalTileId);
                 if (cap != null)
                 {
-                    if (cap.terrainType == TerrainType.Coast) dev += 6;
-                    if (cap.terrainType == TerrainType.SacredLand) stab += 6;
-                    if (cap.terrainType == TerrainType.Hills) stab += 3;
+                    if (cap.terrainType == TerrainType.Coast) dev += 1;
+                    if (cap.terrainType == TerrainType.SacredLand) stab += 1;
+                    if (cap.terrainType == TerrainType.Hills) stab += 1;
                 }
 
                 // Difficulty bias.
@@ -484,8 +484,8 @@ namespace Institute.World
                 region.development = dev;
                 region.ClampStats();
 
-                region.population = Mathf.RoundToInt(region.TileCount * (40f + region.development) * 12f);
-                region.wealth = Mathf.RoundToInt(region.development * 1.5f + region.TileCount * 3f);
+                region.population = Mathf.RoundToInt(region.TileCount * (40f + region.development * 5f) * 12f);
+                region.wealth = Mathf.RoundToInt(region.development * 7.5f + region.TileCount * 3f);
 
                 // Region tags inherit type tags + a couple feature tags from owned tiles.
                 region.tags.Clear();
@@ -661,8 +661,8 @@ namespace Institute.World
             {
                 switch ((id ?? "Normal").Trim().ToLowerInvariant())
                 {
-                    case "easy":   return new DifficultyStatBias { influence = -6, stability = 6, development = 4 };
-                    case "hard":   return new DifficultyStatBias { influence = 8, stability = -6, development = -4 };
+                    case "easy":   return new DifficultyStatBias { influence = -1, stability = 1, development = 1 };
+                    case "hard":   return new DifficultyStatBias { influence = 2, stability = -1, development = -1 };
                     case "custom":
                     case "normal":
                     default:        return new DifficultyStatBias { influence = 0, stability = 0, development = 0 };

@@ -34,7 +34,10 @@ namespace Institute.World.UI
             _doc = OverlayUtil.CreateDocument(gameObject, 250);
             _root = _doc.rootVisualElement;
             _root.Clear();
-            OverlayUtil.AddStyles(_root, "UI/Styles/base", "UI/Styles/popups");
+            // gameplay.uss is required too: the option cards use the .action-card/.action-title/
+            // .action-desc classes which live there. Without it the labels fall back to the default
+            // dark text color on the dark dialog and the choices render invisibly.
+            OverlayUtil.AddStyles(_root, "UI/Styles/base", "UI/Styles/popups", "UI/Styles/gameplay");
 
             VisualTreeAsset uxml = OverlayUtil.LoadUxml("UI/UXML/EventPopup");
             if (uxml != null) uxml.CloneTree(_root); else BuildFallback(_root);

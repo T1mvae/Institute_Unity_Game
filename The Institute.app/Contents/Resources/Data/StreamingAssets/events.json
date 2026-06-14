@@ -9,8 +9,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -8,
+        "influenceChange": -2,
+        "stabilityChange": -2,
         "developmentChange": 0
       },
       {
@@ -19,19 +19,19 @@
         "moneyRequired": 12,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
-        "developmentChange": -4,
-        "minInfluenceRequired": 8
+        "stabilityChange": 1,
+        "developmentChange": -1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Launch sweeping reforms blessed by an artifact",
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 8,
-        "developmentChange": 4,
-        "minInfluenceRequired": 10,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2,
         "modifiers": [
           {
             "name": "Reform Momentum",
@@ -53,9 +53,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -8,
-        "developmentChange": -4
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": -1
       },
       {
         "text": "Send engineers to rebuild the levees",
@@ -63,19 +63,19 @@
         "moneyRequired": 18,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
+        "stabilityChange": 1,
         "developmentChange": 0,
-        "minInfluenceRequired": 8
+        "minInfluenceRequired": 2
       },
       {
         "text": "Purge the floodwaters with relic power",
         "sanityRequired": 0,
         "moneyRequired": 25,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 8,
-        "developmentChange": 8,
-        "minInfluenceRequired": 10,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 2,
+        "minInfluenceRequired": 2,
         "modifiers": [
           {
             "name": "Swift Recovery",
@@ -97,8 +97,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -4,
+        "influenceChange": -1,
+        "stabilityChange": -1,
         "developmentChange": 0
       },
       {
@@ -107,19 +107,19 @@
         "moneyRequired": 12,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
+        "stabilityChange": 1,
         "developmentChange": 0,
-        "minInfluenceRequired": 9
+        "minInfluenceRequired": 2
       },
       {
         "text": "Expose the traitors with a seeing stone",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 4,
+        "influenceChange": 2,
+        "stabilityChange": 1,
         "developmentChange": 0,
-        "minInfluenceRequired": 11
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -133,9 +133,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -12,
-        "developmentChange": -4
+        "influenceChange": -2,
+        "stabilityChange": -3,
+        "developmentChange": -1
       },
       {
         "text": "Fund healers and enforce quarantines",
@@ -143,19 +143,19 @@
         "moneyRequired": 24,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 8,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 9
+        "minInfluenceRequired": 2
       },
       {
         "text": "Use a sanctified relic to cleanse the land",
         "sanityRequired": 0,
         "moneyRequired": 30,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 12,
-        "developmentChange": 4,
-        "minInfluenceRequired": 11,
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2,
         "modifiers": [
           {
             "name": "Purified Land",
@@ -177,9 +177,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
+        "influenceChange": -1,
         "stabilityChange": 0,
-        "developmentChange": -4
+        "developmentChange": -1
       },
       {
         "text": "Allow private investors to back them",
@@ -188,16 +188,16 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 4
+        "developmentChange": 1
       },
       {
         "text": "Pour state funding into the project",
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 0,
-        "influenceChange": 4,
+        "influenceChange": 1,
         "stabilityChange": 0,
-        "developmentChange": 8
+        "developmentChange": 2
       }
     ]
   },
@@ -211,29 +211,29 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -8,
-        "developmentChange": -4
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
       },
       {
         "text": "Establish routine patrols",
         "sanityRequired": 0,
         "moneyRequired": 16,
         "artifactsRequired": 0,
-        "influenceChange": 4,
-        "stabilityChange": 4,
+        "influenceChange": 1,
+        "stabilityChange": 1,
         "developmentChange": 0,
-        "minInfluenceRequired": 8
+        "minInfluenceRequired": 2
       },
       {
         "text": "Unleash an elite strike force empowered by relics",
         "sanityRequired": 0,
         "moneyRequired": 25,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
+        "influenceChange": 2,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 11
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -247,8 +247,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -4,
+        "influenceChange": -1,
+        "stabilityChange": -1,
         "developmentChange": 0
       },
       {
@@ -258,18 +258,18 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 4,
-        "minInfluenceRequired": 9
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Seal its power with sacred wards",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
+        "influenceChange": 2,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 10
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -283,29 +283,29 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -8,
-        "developmentChange": -4
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
       },
       {
         "text": "Send builders and relief wagons",
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 0,
-        "influenceChange": 4,
-        "stabilityChange": 8,
+        "influenceChange": 1,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 8
+        "minInfluenceRequired": 2
       },
       {
         "text": "Rebuild with artifact-fueled craftsmanship",
         "sanityRequired": 0,
         "moneyRequired": 30,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 12,
-        "developmentChange": 8,
-        "minInfluenceRequired": 10
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 2,
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -319,9 +319,9 @@
         "sanityRequired": 5,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
+        "influenceChange": -1,
         "stabilityChange": 0,
-        "developmentChange": -4
+        "developmentChange": -1
       },
       {
         "text": "Allow curiosity under strict watch",
@@ -329,7 +329,7 @@
         "moneyRequired": 6,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
+        "stabilityChange": 1,
         "developmentChange": 0
       },
       {
@@ -337,9 +337,9 @@
         "sanityRequired": 0,
         "moneyRequired": 18,
         "artifactsRequired": 0,
-        "influenceChange": 4,
+        "influenceChange": 1,
         "stabilityChange": 0,
-        "developmentChange": 8
+        "developmentChange": 2
       }
     ]
   },
@@ -353,8 +353,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -8,
+        "influenceChange": -2,
+        "stabilityChange": -2,
         "developmentChange": 0
       },
       {
@@ -363,19 +363,19 @@
         "moneyRequired": 15,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 8,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 9
+        "minInfluenceRequired": 2
       },
       {
         "text": "Cleanse the curse with a relic ritual",
         "sanityRequired": 0,
         "moneyRequired": 12,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 12,
+        "influenceChange": 1,
+        "stabilityChange": 3,
         "developmentChange": 0,
-        "minInfluenceRequired": 11
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -389,9 +389,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
+        "influenceChange": -1,
         "stabilityChange": 0,
-        "developmentChange": -4
+        "developmentChange": -1
       },
       {
         "text": "Allow careful scholarly study",
@@ -400,16 +400,16 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 8
+        "developmentChange": 2
       },
       {
         "text": "Preserve the hall with artifact wards",
         "sanityRequired": 0,
         "moneyRequired": 18,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 4,
-        "developmentChange": 12
+        "influenceChange": 1,
+        "stabilityChange": 1,
+        "developmentChange": 3
       }
     ]
   },
@@ -423,9 +423,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": 8,
-        "developmentChange": -4
+        "influenceChange": -1,
+        "stabilityChange": 2,
+        "developmentChange": -1
       },
       {
         "text": "Negotiate cautious treaties",
@@ -433,17 +433,17 @@
         "moneyRequired": 10,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
-        "developmentChange": 4
+        "stabilityChange": 1,
+        "developmentChange": 1
       },
       {
         "text": "Forge a grand alliance",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 0,
-        "influenceChange": 8,
+        "influenceChange": 2,
         "stabilityChange": 0,
-        "developmentChange": 8
+        "developmentChange": 2
       }
     ]
   },
@@ -457,9 +457,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -8,
-        "developmentChange": -4
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": -1
       },
       {
         "text": "Import emergency grain",
@@ -467,19 +467,19 @@
         "moneyRequired": 26,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 8,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 8
+        "minInfluenceRequired": 2
       },
       {
         "text": "Summon blessed rains with a relic",
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 12,
-        "developmentChange": 4,
-        "minInfluenceRequired": 10
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -493,8 +493,8 @@
         "sanityRequired": 0,
         "moneyRequired": 10,
         "artifactsRequired": 0,
-        "influenceChange": 4,
-        "stabilityChange": -8,
+        "influenceChange": 1,
+        "stabilityChange": -2,
         "developmentChange": 0
       },
       {
@@ -504,18 +504,18 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 4,
-        "minInfluenceRequired": 8
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Fold the sect into state faith with relic rites",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
-        "developmentChange": 4,
-        "minInfluenceRequired": 10
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -529,8 +529,8 @@
         "sanityRequired": 5,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -8,
+        "influenceChange": -1,
+        "stabilityChange": -2,
         "developmentChange": 0
       },
       {
@@ -540,16 +540,16 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 4
+        "developmentChange": 1
       },
       {
         "text": "Sponsor the bard\u2019s tour",
         "sanityRequired": 0,
         "moneyRequired": 10,
         "artifactsRequired": 0,
-        "influenceChange": 8,
-        "stabilityChange": 4,
-        "developmentChange": 4
+        "influenceChange": 2,
+        "stabilityChange": 1,
+        "developmentChange": 1
       }
     ]
   },
@@ -563,8 +563,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -4,
+        "influenceChange": -1,
+        "stabilityChange": -1,
         "developmentChange": 0
       },
       {
@@ -572,20 +572,20 @@
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 0,
-        "influenceChange": 4,
+        "influenceChange": 1,
         "stabilityChange": 0,
-        "developmentChange": 4,
-        "minInfluenceRequired": 8
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Extract crystals using artifact containment",
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
-        "developmentChange": 8,
-        "minInfluenceRequired": 10
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 2,
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -599,8 +599,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -8,
-        "stabilityChange": -8,
+        "influenceChange": -2,
+        "stabilityChange": -2,
         "developmentChange": 0
       },
       {
@@ -608,20 +608,20 @@
         "sanityRequired": 0,
         "moneyRequired": 10,
         "artifactsRequired": 0,
-        "influenceChange": 4,
-        "stabilityChange": 4,
+        "influenceChange": 1,
+        "stabilityChange": 1,
         "developmentChange": 0,
-        "minInfluenceRequired": 8
+        "minInfluenceRequired": 2
       },
       {
         "text": "Hold a protective ritual using sacred relics",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 8,
+        "influenceChange": 1,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 10
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -635,9 +635,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": -8,
-        "developmentChange": -4
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
       },
       {
         "text": "Provide calm care and study",
@@ -645,19 +645,19 @@
         "moneyRequired": 15,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
-        "developmentChange": 4,
-        "minInfluenceRequired": 8
+        "stabilityChange": 1,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Silence the curse with relic intervention",
         "sanityRequired": 0,
         "moneyRequired": 10,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
+        "influenceChange": 2,
+        "stabilityChange": 2,
         "developmentChange": 0,
-        "minInfluenceRequired": 10
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -671,8 +671,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": 4,
+        "influenceChange": -1,
+        "stabilityChange": 1,
         "developmentChange": 0
       },
       {
@@ -680,18 +680,18 @@
         "sanityRequired": 0,
         "moneyRequired": 20,
         "artifactsRequired": 0,
-        "influenceChange": 4,
+        "influenceChange": 1,
         "stabilityChange": 0,
-        "developmentChange": 4
+        "developmentChange": 1
       },
       {
         "text": "Fund a full conquest",
         "sanityRequired": 0,
         "moneyRequired": 40,
         "artifactsRequired": 0,
-        "influenceChange": 12,
-        "stabilityChange": -4,
-        "developmentChange": 8
+        "influenceChange": 3,
+        "stabilityChange": -1,
+        "developmentChange": 2
       }
     ]
   },
@@ -705,8 +705,8 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": 4,
+        "influenceChange": -1,
+        "stabilityChange": 1,
         "developmentChange": 0
       },
       {
@@ -716,18 +716,18 @@
         "artifactsRequired": 0,
         "influenceChange": 0,
         "stabilityChange": 0,
-        "developmentChange": 4,
-        "minInfluenceRequired": 8
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       },
       {
         "text": "Heed the warning with artifact-backed defenses",
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 8,
-        "stabilityChange": 8,
-        "developmentChange": 4,
-        "minInfluenceRequired": 10
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 2
       }
     ]
   },
@@ -742,8 +742,8 @@
         "sanityRequired": 0,
         "moneyRequired": 25,
         "artifactsRequired": 0,
-        "influenceChange": 4,
-        "stabilityChange": 4,
+        "influenceChange": 1,
+        "stabilityChange": 1,
         "developmentChange": 0
       },
       {
@@ -752,7 +752,7 @@
         "moneyRequired": 0,
         "artifactsRequired": 0,
         "moneyChange": 20,
-        "influenceChange": -4,
+        "influenceChange": -1,
         "stabilityChange": 0,
         "developmentChange": 0
       },
@@ -761,9 +761,9 @@
         "sanityRequired": 0,
         "moneyRequired": 0,
         "artifactsRequired": 0,
-        "influenceChange": -4,
-        "stabilityChange": 8,
-        "developmentChange": -4
+        "influenceChange": -1,
+        "stabilityChange": 2,
+        "developmentChange": -1
       }
     ]
   },
@@ -779,8 +779,8 @@
         "moneyRequired": 0,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": -4,
-        "developmentChange": -4
+        "stabilityChange": -1,
+        "developmentChange": -1
       },
       {
         "text": "Import emergency shipments",
@@ -788,7 +788,7 @@
         "moneyRequired": 30,
         "artifactsRequired": 0,
         "influenceChange": 0,
-        "stabilityChange": 4,
+        "stabilityChange": 1,
         "developmentChange": 0
       },
       {
@@ -796,9 +796,9 @@
         "sanityRequired": 0,
         "moneyRequired": 15,
         "artifactsRequired": 1,
-        "influenceChange": 4,
-        "stabilityChange": 8,
-        "developmentChange": 4
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 1
       }
     ]
   },
@@ -909,7 +909,7 @@
         "trustChange": 6,
         "loyaltyChange": 8,
         "relationshipChange": 5,
-        "influenceChange": 4
+        "influenceChange": 1
       },
       {
         "text": "Offer quiet procedural cover",
@@ -923,7 +923,7 @@
         "trustChange": -5,
         "loyaltyChange": -6,
         "influencePowerChange": -6,
-        "stabilityChange": -4
+        "stabilityChange": -1
       }
     ]
   },
@@ -939,21 +939,21 @@
         "moneyRequired": 12,
         "trustChange": 6,
         "loyaltyChange": 4,
-        "stabilityChange": 4
+        "stabilityChange": 1
       },
       {
         "text": "Debate doctrine with dangerous honesty",
         "sanityRequired": 4,
         "trustChange": 3,
         "relationshipChange": 2,
-        "developmentChange": 4
+        "developmentChange": 1
       },
       {
         "text": "Dismiss them as reactionary",
         "trustChange": -8,
         "fearChange": 4,
-        "developmentChange": 4,
-        "stabilityChange": -4
+        "developmentChange": 1,
+        "stabilityChange": -1
       }
     ]
   },
@@ -971,7 +971,7 @@
         "artifactsChange": 1,
         "corruptionChange": 8,
         "loyaltyChange": 5,
-        "stabilityChange": -4
+        "stabilityChange": -1
       },
       {
         "text": "Pay for the ledgers only",
@@ -1000,19 +1000,19 @@
         "moneyRequired": 6,
         "trustChange": 7,
         "relationshipChange": 5,
-        "stabilityChange": 4
+        "stabilityChange": 1
       },
       {
         "text": "Threaten their family network",
         "sanityRequired": 8,
         "fearChange": 12,
         "trustChange": -12,
-        "stabilityChange": -4,
-        "influenceChange": 4
+        "stabilityChange": -1,
+        "influenceChange": 1
       },
       {
         "text": "Ignore the speech",
-        "stabilityChange": -8,
+        "stabilityChange": -2,
         "influencePowerChange": 5
       }
     ]
@@ -1028,14 +1028,14 @@
         "text": "Fund the reform program",
         "moneyRequired": 18,
         "trustChange": 8,
-        "developmentChange": 8,
-        "stabilityChange": -4
+        "developmentChange": 2,
+        "stabilityChange": -1
       },
       {
         "text": "Authorize a cautious pilot",
         "moneyRequired": 8,
         "trustChange": 4,
-        "developmentChange": 4
+        "developmentChange": 1
       },
       {
         "text": "Shelve the proposal",
@@ -1056,14 +1056,14 @@
         "moneyRequired": 10,
         "loyaltyChange": 6,
         "fearChange": 8,
-        "stabilityChange": 4,
+        "stabilityChange": 1,
         "trustChange": -3
       },
       {
         "text": "Pay them to hold defensive lines only",
         "moneyRequired": 14,
         "loyaltyChange": 4,
-        "stabilityChange": 4
+        "stabilityChange": 1
       },
       {
         "text": "Deny the request",
@@ -1084,8 +1084,8 @@
         "sanityRequired": 6,
         "moneyRequired": 10,
         "fearChange": 6,
-        "influenceChange": 4,
-        "stabilityChange": -4
+        "influenceChange": 1,
+        "stabilityChange": -1
       },
       {
         "text": "Move the contact to a safer posting",

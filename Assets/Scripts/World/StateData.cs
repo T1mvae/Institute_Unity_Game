@@ -15,9 +15,9 @@ namespace Institute.World
         public string colorHex;
         public string capitalRegionId;
         public List<string> regionIds = new List<string>();
-        public int stability;     // 0..100 state-level metric
-        public int development;   // 0..100 state-level metric
-        public int influence;     // 0..100 player influence inside the state
+        public int stability;     // 0..20 state-level metric (mean of member regions)
+        public int development;   // 0..20 state-level metric (mean of member regions)
+        public int influence;     // 0..20 player influence inside the state (mean of member regions)
 
         public StateData() { }
 

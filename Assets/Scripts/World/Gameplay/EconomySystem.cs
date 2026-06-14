@@ -15,7 +15,7 @@ namespace Institute.World.Gameplay
 
         [Header("Tuning")]
         public int baseIncome = 5;
-        public float incomeMultiplier = 0.06f;
+        public float incomeMultiplier = 0.3f;   // ×5 vs the old 0..100 scale (development is now 0..20)
         public float artifactChance = 0.05f;
 
         public int Exposure { get; private set; }          // 0..100 (Suspicion / traces of action)
@@ -111,7 +111,7 @@ namespace Institute.World.Gameplay
                 }
                 if (hasStructure)
                 {
-                    bonus += r.development * (r.influence / 100f) * incomeMultiplier;
+                    bonus += r.development * (r.influence / 20f) * incomeMultiplier;
                     builtRegionsCount++;
                 }
             }
@@ -125,11 +125,11 @@ namespace Institute.World.Gameplay
             int gained = 0, eligible = 0;
             foreach (var r in map.Regions)
             {
-                if (!RegionYieldsArtifacts(map, r) || r.influence < 50) continue;
+                if (!RegionYieldsArtifacts(map, r) || r.influence < 10) continue;
                 eligible++;
                 if (Random.value < artifactChance) gained++;
             }
-            breakdown = $"Artifacts this day: {gained}\n  Eligible ruin regions (influence ≥ 50): {eligible}\n  Daily chance each: {(artifactChance * 100f):0}%";
+            breakdown = $"Artifacts this day: {gained}\n  Eligible ruin regions (influence ≥ 10): {eligible}\n  Daily chance each: {(artifactChance * 100f):0}%";
             return gained;
         }
 
@@ -186,16 +186,18 @@ namespace Institute.World.Gameplay
                 int delta = 0;
                 if (c.recruitedAsContact || c.loyalty > 60) delta += 1;
                 if (c.relationshipWithPlayer < -40 && c.fear < 30) delta -= 1;
-                if (delta != 0) { region.influence = Mathf.Clamp(region.influence + delta, 0, 100); }
+                if (delta != 0) { region.influence = Mathf.Clamp(region.influence + delta, 0, 20); }
             }
         }
 
+        // Returns a 0..100 PERCENTAGE. Region stability is 0..20, so the mean is scaled ×5 — this keeps
+        // the HUD "{stab}%" readout and the <30 / <15 thresholds meaningful on the new scale.
         public int GlobalStability(WorldMapData map)
         {
             if (map == null || map.RegionCount == 0) return 0;
             long sum = 0;
             foreach (var r in map.Regions) sum += r.stability;
-            return (int)(sum / map.RegionCount);
+            return (int)(sum * 5 / map.RegionCount);
         }
 
         public string ExposureTooltip => $"Exposure / Suspicion: {Exposure} / 100\nHigh-tech traces raise this; it fades ~1/day.\nAt 100 the elites purge you (Game Over).";
@@ -216,7 +218,7 @@ namespace Institute.World.Gameplay
 
             // Victory conditions.
             if (VictoryReformPassed) { EndGame(true, "A great reform passed in the capital of the largest empire."); return; }
-            if (map.StateCount > 0 && AllStatesDominated(map, 80))
+            if (map.StateCount > 0 && AllStatesDominated(map, 16))   // 16/20 = 80% on the new scale
             {
                 EndGame(true, "Achieved 80% Institute influence across every major state.");
                 return;

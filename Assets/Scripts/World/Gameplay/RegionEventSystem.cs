@@ -364,13 +364,25 @@ namespace Institute.World.Gameplay
                 {
                     if (def == null) continue;
                     int ticks = def.tickIntervalSeconds > 0f ? Mathf.Max(1, Mathf.RoundToInt(def.durationSeconds / def.tickIntervalSeconds)) : 1;
-                    region.influence += def.influencePerTick * ticks;
-                    region.stability += def.stabilityPerTick * ticks;
-                    region.development += def.developmentPerTick * ticks;
-                    region.modifiers.Add(new RegionModifierState(def.name, def.influencePerTick * ticks, def.stabilityPerTick * ticks, def.developmentPerTick * ticks, 0f));
+                    int mInfl = ScaleModifier(def.influencePerTick * ticks);
+                    int mStab = ScaleModifier(def.stabilityPerTick * ticks);
+                    int mDev = ScaleModifier(def.developmentPerTick * ticks);
+                    region.influence += mInfl;
+                    region.stability += mStab;
+                    region.development += mDev;
+                    region.modifiers.Add(new RegionModifierState(def.name, mInfl, mStab, mDev, 0f));
                 }
             }
             region.ClampStats();
+        }
+
+        // Modifier per-tick totals were authored for the old 0..100 scale. Compress them to the
+        // 0..20 scale (÷5) with a floor of 1 so a non-zero over-time effect never rounds away.
+        static int ScaleModifier(int total)
+        {
+            if (total == 0) return 0;
+            int mag = Mathf.Max(1, Mathf.Abs(total) / 5);
+            return total > 0 ? mag : -mag;
         }
 
         void ApplyCharacter(EventOption opt, GameCharacter character)

@@ -33,6 +33,12 @@ namespace Institute.World.UI
         Label _logText, _tooltipText;
         VisualElement[] _modeButtons;
 
+        enum DirectiveTab { Decisions, Characters }
+        DirectiveTab _directiveTab = DirectiveTab.Decisions;
+        Button _tabDecisions, _tabCharacters;
+        RegionData _ctxRegion;   // last selected region, for tab re-population
+        HexTileData _ctxTile;    // last selected wilderness tile, for tab re-population
+
         bool _hoveringTile;
         float _cosmeticDay;
 
@@ -99,6 +105,7 @@ namespace Institute.World.UI
 
             WirePause();
             WireModeButtons();
+            WireDirectiveTabs();
             WirePointerGate();
         }
 
@@ -146,6 +153,44 @@ namespace Institute.World.UI
                 if (b.name == active) b.AddToClassList("mode-active");
                 else b.RemoveFromClassList("mode-active");
             }
+        }
+
+        // ---------- directive tabs (Decisions | Characters) ----------
+        void WireDirectiveTabs()
+        {
+            _tabDecisions = _root.Q<Button>("tab-decisions");
+            _tabCharacters = _root.Q<Button>("tab-characters");
+            if (_tabDecisions != null) _tabDecisions.clicked += () => SelectDirectiveTab(DirectiveTab.Decisions);
+            if (_tabCharacters != null) _tabCharacters.clicked += () => SelectDirectiveTab(DirectiveTab.Characters);
+            HighlightDirectiveTab();
+        }
+
+        void SelectDirectiveTab(DirectiveTab tab)
+        {
+            _directiveTab = tab;
+            HighlightDirectiveTab();
+            RepopulateActions();
+        }
+
+        void HighlightDirectiveTab()
+        {
+            SetActiveClass(_tabDecisions, _directiveTab == DirectiveTab.Decisions);
+            SetActiveClass(_tabCharacters, _directiveTab == DirectiveTab.Characters);
+        }
+
+        static void SetActiveClass(VisualElement e, bool active)
+        {
+            if (e == null) return;
+            if (active) e.AddToClassList("mode-active");
+            else e.RemoveFromClassList("mode-active");
+        }
+
+        // Re-render the actions list for the current selection under the active tab.
+        void RepopulateActions()
+        {
+            if (_ctxRegion != null) PopulateRegionActions(_ctxRegion);
+            else if (_ctxTile != null) PopulateWildernessActions(_ctxTile);
+            else RefreshWorldOverview();
         }
 
         void WirePointerGate()
@@ -253,6 +298,8 @@ namespace Institute.World.UI
         // ---------- selection handlers ----------
         void OnRegionSelected(RegionData region)
         {
+            _ctxRegion = region;
+            _ctxTile = null;
             SetText(_title, region.displayName);
             SetText(_subtitle, $"{Prettify(region.regionType.ToString())} • {region.TileCount} tiles");
             ShowStats(true);
@@ -281,6 +328,8 @@ namespace Institute.World.UI
 
         void OnTileSelected(HexTileData tile)
         {
+            _ctxRegion = null;
+            _ctxTile = tile;
             TerrainDefinition def = MapDefinitions.GetTerrain(tile.terrainType);
             SetText(_title, def.displayName);
             SetText(_subtitle, "Unclaimed — No organized region");
@@ -301,6 +350,8 @@ namespace Institute.World.UI
 
         void RefreshWorldOverview()
         {
+            _ctxRegion = null;
+            _ctxTile = null;
             SetText(_title, "WORLD OVERVIEW");
             int regions = _world.Map != null ? _world.Map.RegionCount : 0;
             int tiles = _world.Map != null ? _world.Map.TileCount : 0;
@@ -312,10 +363,7 @@ namespace Institute.World.UI
             if (_actionsList != null)
             {
                 _actionsList.Clear();
-                var hint = new Label("Select a region to view decisions and characters.");
-                hint.AddToClassList("action-desc");
-                hint.style.marginTop = 6;
-                _actionsList.Add(hint);
+                AddHint("Select a region to view decisions and characters.");
             }
         }
 
@@ -354,23 +402,21 @@ namespace Institute.World.UI
             if (_actionsList == null) return;
             _actionsList.Clear();
 
-            var decisions = RegionDecisionSystem.Instance;
-            if (decisions != null)
+            if (_directiveTab == DirectiveTab.Decisions)
             {
-                AddSectionLabel("Decisions");
-                foreach (var def in decisions.GetDecisionsFor(region))
-                    AddDecisionCard(def, region);
+                var decisions = RegionDecisionSystem.Instance;
+                if (decisions != null)
+                    foreach (var def in decisions.GetDecisionsFor(region))
+                        AddDecisionCard(def, region);
             }
-
-            var chars = RegionCharacterSystem.Instance;
-            if (chars != null)
+            else // Characters
             {
-                var local = chars.GetCharactersInRegion(region.regionId);
-                if (local.Count > 0)
-                {
-                    AddSectionLabel("Characters");
+                var chars = RegionCharacterSystem.Instance;
+                var local = chars != null ? chars.GetCharactersInRegion(region.regionId) : null;
+                if (local != null && local.Count > 0)
                     foreach (var c in local) AddCharacterCard(c, region);
-                }
+                else
+                    AddHint("No known characters in this region.");
             }
         }
 
@@ -378,21 +424,29 @@ namespace Institute.World.UI
         {
             if (_actionsList == null) return;
             _actionsList.Clear();
-            AddSectionLabel("Wilderness");
-            // Only non-regional decisions are valid with no region selected.
-            var decisions = RegionDecisionSystem.Instance;
-            if (decisions != null)
-                foreach (var def in decisions.GetDecisionsFor(null))
-                    AddDecisionCard(def, null);
-            AddAction("Scout", "Reveal what lies on this tile.",
-                () => Log($"Scouting {tile.coord} ({MapDefinitions.GetTerrain(tile.terrainType).displayName})."));
+            if (_directiveTab == DirectiveTab.Decisions)
+            {
+                // Only non-regional decisions are valid with no region selected.
+                var decisions = RegionDecisionSystem.Instance;
+                if (decisions != null)
+                    foreach (var def in decisions.GetDecisionsFor(null))
+                        AddDecisionCard(def, null);
+                AddAction("Scout", "Reveal what lies on this tile.",
+                    () => Log($"Scouting {tile.coord} ({MapDefinitions.GetTerrain(tile.terrainType).displayName})."));
+            }
+            else // Characters
+            {
+                AddHint("No characters in the wilderness.");
+            }
         }
 
-        void AddSectionLabel(string text)
+        // Muted one-line note inside the actions list (empty states / prompts).
+        void AddHint(string text)
         {
-            var l = new Label(text); l.AddToClassList("panel-title"); l.AddToClassList("small");
-            l.style.marginTop = 6;
-            _actionsList.Add(l);
+            if (_actionsList == null) return;
+            var hint = new Label(text); hint.AddToClassList("action-desc");
+            hint.style.marginTop = 6;
+            _actionsList.Add(hint);
         }
 
         // Simple clickable card (used for non-decision actions like wilderness scouting).
@@ -500,12 +554,14 @@ namespace Institute.World.UI
 
         static void SetText(Label label, string text) { if (label != null) label.text = text; }
 
+        // Fallback global stability as a 0..100 percentage (region.stability is 0..20, so ×5).
+        // Mirrors EconomySystem.GlobalStability, used only when the economy system is absent.
         static int AverageStability(WorldMapData map)
         {
             if (map.RegionCount == 0) return 0;
             int sum = 0;
             foreach (var r in map.Regions) sum += r.stability;
-            return sum / map.RegionCount;
+            return sum * 5 / map.RegionCount;
         }
 
         static string Prettify(string pascal)
@@ -560,6 +616,13 @@ namespace Institute.World.UI
             var right = new VisualElement { name = "right-panel" };
             right.AddToClassList("side-panel"); right.AddToClassList("right-panel");
             right.Add(new Label("DIRECTIVES") { name = "panel-title-right" });
+            var tabs = new VisualElement { name = "directive-tabs" }; tabs.AddToClassList("tab-row");
+            var tabDec = new Button { name = "tab-decisions", text = "DECISIONS" };
+            tabDec.AddToClassList("btn"); tabDec.AddToClassList("mode-btn"); tabDec.AddToClassList("mode-active");
+            var tabChar = new Button { name = "tab-characters", text = "CHARACTERS" };
+            tabChar.AddToClassList("btn"); tabChar.AddToClassList("mode-btn");
+            tabs.Add(tabDec); tabs.Add(tabChar);
+            right.Add(tabs);
             var actions = new VisualElement { name = "actions-list" }; actions.AddToClassList("actions-list");
             right.Add(actions);
             hud.Add(right);

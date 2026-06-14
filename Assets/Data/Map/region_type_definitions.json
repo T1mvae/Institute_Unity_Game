@@ -7,10 +7,10 @@
                 "Plains",
                 "Hills"
             ],
-            "influenceBase": 65,
-            "stabilityBase": 70,
-            "developmentBase": 60,
-            "statVariance": 8,
+            "influenceBase": 13,
+            "stabilityBase": 14,
+            "developmentBase": 12,
+            "statVariance": 2,
             "sizePreference": 1.600000023841858,
             "tags": [
                 "core"
@@ -23,10 +23,10 @@
                 "Plains",
                 "Forest"
             ],
-            "influenceBase": 50,
-            "stabilityBase": 55,
-            "developmentBase": 50,
-            "statVariance": 12,
+            "influenceBase": 10,
+            "stabilityBase": 11,
+            "developmentBase": 10,
+            "statVariance": 2,
             "sizePreference": 1.0,
             "tags": [
                 "feudal"
@@ -39,10 +39,10 @@
                 "Hills",
                 "Forest"
             ],
-            "influenceBase": 40,
-            "stabilityBase": 50,
-            "developmentBase": 30,
-            "statVariance": 14,
+            "influenceBase": 8,
+            "stabilityBase": 10,
+            "developmentBase": 6,
+            "statVariance": 3,
             "sizePreference": 1.100000023841858,
             "tags": [
                 "frontier"
@@ -55,10 +55,10 @@
                 "Coast",
                 "Plains"
             ],
-            "influenceBase": 55,
-            "stabilityBase": 50,
-            "developmentBase": 70,
-            "statVariance": 12,
+            "influenceBase": 11,
+            "stabilityBase": 10,
+            "developmentBase": 14,
+            "statVariance": 2,
             "sizePreference": 0.8999999761581421,
             "tags": [
                 "trade"
@@ -71,10 +71,10 @@
                 "SacredLand",
                 "Hills"
             ],
-            "influenceBase": 60,
-            "stabilityBase": 72,
-            "developmentBase": 40,
-            "statVariance": 10,
+            "influenceBase": 12,
+            "stabilityBase": 14,
+            "developmentBase": 8,
+            "statVariance": 2,
             "sizePreference": 0.800000011920929,
             "tags": [
                 "religious"
@@ -87,10 +87,10 @@
                 "Forest",
                 "Hills"
             ],
-            "influenceBase": 35,
-            "stabilityBase": 45,
-            "developmentBase": 30,
-            "statVariance": 16,
+            "influenceBase": 7,
+            "stabilityBase": 9,
+            "developmentBase": 6,
+            "statVariance": 3,
             "sizePreference": 1.2000000476837159,
             "tags": [
                 "tribal"
@@ -103,10 +103,10 @@
                 "Ruins",
                 "Wasteland"
             ],
-            "influenceBase": 25,
-            "stabilityBase": 30,
-            "developmentBase": 25,
-            "statVariance": 18,
+            "influenceBase": 5,
+            "stabilityBase": 6,
+            "developmentBase": 5,
+            "statVariance": 4,
             "sizePreference": 0.699999988079071,
             "tags": [
                 "ruined",
@@ -119,10 +119,10 @@
             "preferredTerrains": [
                 "Coast"
             ],
-            "influenceBase": 50,
-            "stabilityBase": 55,
-            "developmentBase": 60,
-            "statVariance": 12,
+            "influenceBase": 10,
+            "stabilityBase": 11,
+            "developmentBase": 12,
+            "statVariance": 2,
             "sizePreference": 1.0,
             "tags": [
                 "coastal",
@@ -135,10 +135,10 @@
             "preferredTerrains": [
                 "Hills"
             ],
-            "influenceBase": 45,
-            "stabilityBase": 60,
-            "developmentBase": 35,
-            "statVariance": 12,
+            "influenceBase": 9,
+            "stabilityBase": 12,
+            "developmentBase": 7,
+            "statVariance": 2,
             "sizePreference": 0.800000011920929,
             "tags": [
                 "highland"
@@ -150,10 +150,10 @@
             "preferredTerrains": [
                 "Plains"
             ],
-            "influenceBase": 40,
-            "stabilityBase": 55,
-            "developmentBase": 45,
-            "statVariance": 12,
+            "influenceBase": 8,
+            "stabilityBase": 11,
+            "developmentBase": 9,
+            "statVariance": 2,
             "sizePreference": 0.6000000238418579,
             "tags": [
                 "neutral"

@@ -8,8 +8,10 @@
             <ui:Label text="PAUSED" class="dialog-title" />
             <ui:Button name="btn-resume" text="Resume" class="btn btn-primary" />
             <ui:Button name="btn-save" text="Save Game" class="btn" />
+            <ui:Button name="btn-load" text="Load Game" class="btn" />
             <ui:Button name="btn-settings" text="Settings" class="btn" />
-            <ui:Button name="btn-menu" text="Return to Main Menu" class="btn btn-danger" />
+            <ui:Button name="btn-menu" text="Return to Main Menu" class="btn" />
+            <ui:Button name="btn-quit" text="Quit Game" class="btn btn-danger" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

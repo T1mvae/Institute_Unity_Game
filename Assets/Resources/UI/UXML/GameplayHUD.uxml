@@ -54,6 +54,10 @@
         <!-- Right: contextual actions -->
         <ui:VisualElement name="right-panel" class="side-panel right-panel">
             <ui:Label text="DIRECTIVES" class="panel-title" />
+            <ui:VisualElement name="directive-tabs" class="tab-row">
+                <ui:Button name="tab-decisions" text="DECISIONS" class="btn mode-btn mode-active" />
+                <ui:Button name="tab-characters" text="CHARACTERS" class="btn mode-btn" />
+            </ui:VisualElement>
             <ui:ScrollView name="actions-scroll" class="actions-scroll">
                 <ui:VisualElement name="actions-list" class="actions-list" />
             </ui:ScrollView>

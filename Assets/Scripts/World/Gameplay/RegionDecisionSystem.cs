@@ -158,9 +158,9 @@ namespace Institute.World.Gameplay
         void ApplyStateDeltas(DecisionDefinition d, StateData state, WorldMapData map)
         {
             if (state == null) return;
-            state.stability = Mathf.Clamp(state.stability + d.stateStabilityDelta, 0, 100);
-            state.influence = Mathf.Clamp(state.influence + d.stateInfluenceDelta, 0, 100);
-            state.development = Mathf.Clamp(state.development + d.stateDevelopmentDelta, 0, 100);
+            state.stability = Mathf.Clamp(state.stability + d.stateStabilityDelta, 0, 20);
+            state.influence = Mathf.Clamp(state.influence + d.stateInfluenceDelta, 0, 20);
+            state.development = Mathf.Clamp(state.development + d.stateDevelopmentDelta, 0, 20);
 
             // A portion of a state-level change propagates to every member region.
             foreach (string rid in state.regionIds)

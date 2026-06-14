@@ -149,7 +149,9 @@ public class NewGameSetupUIController : MonoBehaviour
         card.style.marginBottom = 12;
         card.RegisterCallback<ClickEvent>(_ => SelectDifficulty(preset));
 
-        Label title = UIToolkitThemeUtility.Label(config.displayName.ToUpperInvariant(), "section-title");
+        // Label each card by its preset (Custom clones the current config, whose displayName is
+        // still "Normal" — using the preset name avoids the Custom card reading "NORMAL").
+        Label title = UIToolkitThemeUtility.Label(preset.ToString().ToUpperInvariant(), "section-title");
         Label body = UIToolkitThemeUtility.Label(description, "body-copy");
         Label meta = UIToolkitThemeUtility.Label(BuildModifierSummary(config), "meta-label");
         card.Add(title);

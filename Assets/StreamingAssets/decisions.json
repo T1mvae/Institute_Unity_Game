@@ -4,8 +4,8 @@
     "displayName": "Collect Taxes",
     "sanityCost": 5,
     "moneyGain": 18,
-    "influenceDelta": -5,
-    "stabilityDelta": -10,
+    "influenceDelta": -1,
+    "stabilityDelta": -2,
     "developmentDelta": 0,
     "cooldownSeconds": 6
   },
@@ -14,9 +14,9 @@
     "displayName": "Hold Festival",
     "moneyCost": 18,
     "sanityGain": 6,
-    "influenceDelta": 5,
-    "stabilityDelta": 8,
-    "developmentDelta": -5,
+    "influenceDelta": 1,
+    "stabilityDelta": 2,
+    "developmentDelta": -1,
     "cooldownSeconds": 14
   },
   {
@@ -24,8 +24,8 @@
     "displayName": "Research Grant",
     "moneyCost": 20,
     "influenceDelta": 0,
-    "stabilityDelta": -5,
-    "developmentDelta": 12,
+    "stabilityDelta": -1,
+    "developmentDelta": 3,
     "cooldownSeconds": 10
   },
   {
@@ -41,9 +41,9 @@
     "displayName": "Propaganda Campaign",
     "sanityCost": 6,
     "moneyCost": 8,
-    "influenceDelta": 10,
-    "stabilityDelta": 5,
-    "developmentDelta": -5,
+    "influenceDelta": 2,
+    "stabilityDelta": 1,
+    "developmentDelta": -1,
     "cooldownSeconds": 10
   },
 
@@ -52,8 +52,8 @@
     "displayName": "Build Clinic",
     "moneyCost": 40,
     "structureName": "Clinic",
-    "developmentDelta": 8,
-    "stabilityDelta": 5,
+    "developmentDelta": 2,
+    "stabilityDelta": 1,
     "exposureRisk": 5,
     "cooldownSeconds": 30
   },
@@ -62,8 +62,8 @@
     "displayName": "Establish Guild Hall",
     "moneyCost": 35,
     "structureName": "Guild",
-    "developmentDelta": 10,
-    "influenceDelta": 5,
+    "developmentDelta": 2,
+    "influenceDelta": 1,
     "cooldownSeconds": 30
   },
   {
@@ -71,8 +71,8 @@
     "displayName": "Found School",
     "moneyCost": 45,
     "structureName": "School",
-    "developmentDelta": 12,
-    "stabilityDelta": 5,
+    "developmentDelta": 3,
+    "stabilityDelta": 1,
     "cooldownSeconds": 35
   },
   {
@@ -80,7 +80,7 @@
     "displayName": "Plant Contact Network",
     "moneyCost": 20,
     "structureName": "Network",
-    "influenceDelta": 8,
+    "influenceDelta": 2,
     "exposureRisk": 8,
     "cooldownSeconds": 30
   },
@@ -90,9 +90,9 @@
     "displayName": "Royal Audience",
     "targetType": "State",
     "moneyCost": 25,
-    "minStateStability": 20,
-    "stateInfluenceDelta": 10,
-    "stateStabilityDelta": 5,
+    "minStateStability": 4,
+    "stateInfluenceDelta": 2,
+    "stateStabilityDelta": 1,
     "cooldownSeconds": 20
   },
   {
@@ -101,8 +101,8 @@
     "targetType": "State",
     "sanityCost": 6,
     "exposureRisk": 8,
-    "stateInfluenceDelta": 8,
-    "stateStabilityDelta": -15,
+    "stateInfluenceDelta": 2,
+    "stateStabilityDelta": -3,
     "cooldownSeconds": 30
   },
 
@@ -119,7 +119,7 @@
     "targetType": "Self",
     "isShadowInstrument": true,
     "moneyCost": 5,
-    "influenceDelta": 15,
+    "influenceDelta": 3,
     "exposureRisk": 15,
     "cooldownSeconds": 18
   },
@@ -129,8 +129,8 @@
     "targetType": "Self",
     "isShadowInstrument": true,
     "sanityCost": 8,
-    "influenceDelta": 20,
-    "stabilityDelta": -15,
+    "influenceDelta": 4,
+    "stabilityDelta": -3,
     "exposureRisk": 25,
     "cooldownSeconds": 40
   },
@@ -140,8 +140,8 @@
     "targetType": "Self",
     "isShadowInstrument": true,
     "sanityCost": 6,
-    "developmentDelta": -12,
-    "stabilityDelta": -15,
+    "developmentDelta": -3,
+    "stabilityDelta": -3,
     "exposureRisk": 20,
     "cooldownSeconds": 35
   }

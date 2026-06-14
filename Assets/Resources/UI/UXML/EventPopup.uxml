@@ -2,6 +2,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
     <Style src="project://database/Assets/Resources/UI/Styles/base.uss" />
     <Style src="project://database/Assets/Resources/UI/Styles/popups.uss" />
+    <Style src="project://database/Assets/Resources/UI/Styles/gameplay.uss" />
 
     <ui:VisualElement name="event-root" class="overlay">
         <ui:VisualElement class="dialog dialog-wide">

@@ -528,6 +528,34 @@
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/NewGameSetup.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.PanelSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.ThemeStyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.VisualTreeAsset",
+            "moduleName": "",
+            "usedInScenes": []
         }
     ],
     "allNativeTypes": [

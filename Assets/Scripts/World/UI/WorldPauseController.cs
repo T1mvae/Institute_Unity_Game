@@ -33,7 +33,8 @@ namespace Institute.World.UI
             _doc = OverlayUtil.CreateDocument(gameObject, 200);
             _root = _doc.rootVisualElement;
             _root.Clear();
-            OverlayUtil.AddStyles(_root, "UI/Styles/base", "UI/Styles/popups");
+            // gameplay.uss carries the .btn/.btn-primary/.btn-danger theming the menu buttons use.
+            OverlayUtil.AddStyles(_root, "UI/Styles/base", "UI/Styles/popups", "UI/Styles/gameplay");
 
             VisualTreeAsset uxml = OverlayUtil.LoadUxml("UI/UXML/PauseMenu");
             if (uxml != null)
@@ -79,8 +80,8 @@ namespace Institute.World.UI
             dialog.Add(OverlayUtil.Button("Save Game", null, SaveGame));
             dialog.Add(OverlayUtil.Button("Load Game", null, LoadGame));
             dialog.Add(OverlayUtil.Button("Settings", null, OpenSettings));
-            dialog.Add(OverlayUtil.Button("Return to Main Menu", "btn-danger", ReturnToMenu));
-            dialog.Add(OverlayUtil.Button("Quit Game", null, Quit));
+            dialog.Add(OverlayUtil.Button("Return to Main Menu", null, ReturnToMenu));
+            dialog.Add(OverlayUtil.Button("Quit Game", "btn-danger", Quit));
             _feedback = new Label("") { name = "pause-feedback" }; _feedback.AddToClassList("dialog-body");
             dialog.Add(_feedback);
             overlay.Add(dialog);

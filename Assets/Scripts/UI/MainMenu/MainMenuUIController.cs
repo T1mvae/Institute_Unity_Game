@@ -167,12 +167,14 @@ public class MainMenuUIController : MonoBehaviour
             newGame.clicked += () => SceneFlowManager.EnsureExists().GoToNewGameSetup();
         if (continueButton != null)
         {
-            continueButton.SetEnabled(SaveLoadManager.SaveExists(SaveLoadManager.AutoSaveSlot));
+            // Use the NEW save system (WorldSaveBridge writes <slot>.world.json); the legacy
+            // SaveLoadManager.SaveExists checks <slot>.json and would never see an in-game save.
+            continueButton.SetEnabled(Institute.World.Gameplay.GameSaveService.HasSave(SaveLoadManager.AutoSaveSlot));
             continueButton.clicked += () => SceneFlowManager.EnsureExists().ContinueGame();
         }
         if (loadButton != null)
         {
-            loadButton.SetEnabled(SaveLoadManager.SaveExists(SaveLoadManager.ManualSaveSlot));
+            loadButton.SetEnabled(Institute.World.Gameplay.GameSaveService.HasSave(SaveLoadManager.ManualSaveSlot));
             loadButton.clicked += () => SceneFlowManager.EnsureExists().LoadGame(SaveLoadManager.ManualSaveSlot);
         }
         if (settings != null)

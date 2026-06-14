@@ -78,6 +78,22 @@ public class DifficultyConfig
                     startingStabilityModifier = -3,
                     startingDevelopmentModifier = -1
                 };
+            case DifficultyPreset.Custom:
+                return new DifficultyConfig
+                {
+                    preset = DifficultyPreset.Custom,
+                    displayName = "Custom",
+                    startingMoney = 100,
+                    startingArtifacts = 5,
+                    startingSanity = 100,
+                    mapWidth = 8,
+                    mapHeight = 6,
+                    useRandomSeed = true,
+                    eventFrequencyMultiplier = 1f,
+                    eventDangerMultiplier = 1f,
+                    decisionCostMultiplier = 1f,
+                    sanityChangePerTenSeconds = 1f
+                };
             default:
                 return new DifficultyConfig
                 {
